@@ -1,14 +1,26 @@
-layout_spectrum: 0.6576942
-typography_spectrum: 0.7097135
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.3456157
 color:
-  saturation: 0.3934792
-  lightness: 0.9937689
+  saturation: 0.5839552
   brandStrength: 0.1160683
-  rhythmicContrast: 0.5409546
+  lightness: 0.5097948
   brandColors:
     - '#A690A4'
     - '#B68F9D'
     - '#C8ACAB'
     - '#FBB9BF'
     - '#E376B7'
+  rhythmicContrast: 0.9407649
+layout_spectrum: 0.1576492
 name: Brightman
